@@ -53,3 +53,11 @@ h1 {
 .button:hover {
     transform: scale(1.04);
 }
+
+.button.clock {
+    background-color: #1B912B;
+}
+
+.button.wheel {
+    background-color: #3b57f8;
+}
