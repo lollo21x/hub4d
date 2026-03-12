@@ -15,9 +15,9 @@ body {
 }
 
 ::selection {
-      background-color: #fe8623;
-      color: #fff;
-    }
+    background-color: #fe8623;
+    color: #fff;
+}
 
 .container {
     text-align: center;
@@ -34,6 +34,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -66,3 +67,6 @@ h1 {
     background-color: #DA352F;
 }
 
+.button.wiki {
+    background-color: #000000;
+}
